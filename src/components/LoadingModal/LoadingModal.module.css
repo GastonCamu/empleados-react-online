@@ -1,0 +1,41 @@
+.loadingOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.loadingModal {
+    background-color: white;
+    padding: 2vw;
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.loadingModal p {
+    font-size: 2vw;
+    font-weight: 400;
+    color: var(--color-5-light);
+}
+
+.spinner {
+    width: 5vw;
+    height: 5vw;
+    border: 7px solid var(--color-1-transparent);
+    border-top: 7px solid var(--color-2);
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}

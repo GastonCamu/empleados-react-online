@@ -1,0 +1,46 @@
+.loginpage {
+    background-color: var(--color-5);
+    color: var(--color-1);
+    padding: 1.5vw;
+    margin: 10vw auto;
+    border-radius: 10px;
+    width: 40%;
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+.formDivs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 2vw;
+}
+
+.input {
+    border-radius: 4px;
+    background-color: white;
+    padding: 0.3vw;
+}
+
+.btnSubmit {
+    user-select: none;
+    display: flex;
+    margin: auto;
+    font-size: 2vw;
+    padding: 0.3vw;
+    border-radius: 5px;
+    background-color: var(--color-4-light);
+    cursor: pointer;
+    transition: background 500ms;
+}
+.btnSubmit:hover {
+    background-color: var(--color-4);
+    transition: background 500ms;
+}
+
+.error {
+    width: 100%;
+    color: var(--color-error);
+    margin-top: 0.7vw;
+}

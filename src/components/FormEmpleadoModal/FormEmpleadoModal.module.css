@@ -1,0 +1,107 @@
+.formEmpleadoModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  padding: 1vw;
+  border-radius: 3px;
+  position: relative;
+  width: 60%;
+}
+
+.closeButton {
+  user-select: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: none;
+  border: none;
+  font-size: 2vw;
+  padding: 0.5vw 0.8vw;
+  cursor: pointer;
+  background-color: var(--color-1);
+  border-radius: 0 0 0 3px;
+
+  transition: background 400ms;
+}
+
+.closeButton:hover {
+  background-color: var(--color-button-delete);
+
+  transition: background 400ms;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 1.7vw;
+  padding-bottom: 1.5vw;
+}
+
+.form {
+  border: 2px solid var(--color-1-dark);
+  border-radius: 5px;
+  padding: 1vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.4vw;
+  font-weight: 400;
+
+}
+
+.formGroup {
+  display: flex;
+  align-items: center;
+  padding: 1.7vw 0;
+}
+
+.formGroup label {
+  padding-right: 1vw;
+  font-weight: 600;
+}
+
+.formGroup input {
+  border-bottom: 1px solid var(--color-5);
+  padding: 0.1vw 0.2vw;
+
+  transition: border 100ms;
+}
+
+.formGroup input:hover, .formGroup input:focus{
+  border-bottom: 2px solid var(--color-5);
+
+  transition: border 100ms;
+}
+
+.submitButton {
+  user-select: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 1vw;
+  border-radius: 3px;
+  font-weight: 600;
+  background-color: var(--color-2);
+
+  transition: background 400ms;
+}
+
+.submitButton:hover {
+  background-color: var(--color-2-dark);
+
+  transition: background 400ms;
+}

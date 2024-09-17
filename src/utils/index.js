@@ -1,0 +1,1 @@
+export {formatFechaToDDMMYYYY, formatFechaToISO} from './formatFecha'

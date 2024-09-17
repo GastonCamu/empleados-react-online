@@ -1,0 +1,12 @@
+body {
+    font-family: "Roboto", system-ui;
+    font-weight: 100;
+    font-style: normal;
+
+    background-color: var(--color-1);
+}
+
+*::selection {
+    background-color: var(--color-5-light);
+    color: var(--color-1);
+}

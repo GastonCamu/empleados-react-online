@@ -1,0 +1,104 @@
+{
+  "empleados": [
+    {
+      "id": "1",
+      "nroDocumento": "40299324",
+      "nombre": "jose",
+      "apellido": "alvarez",
+      "email": "josealvarez@gmail.com",
+      "fechaNacimiento": "2003-06-10",
+      "fechaIngreso": "2022-10-15",
+      "fechaCreacion": "2024-09-14"
+    },
+    {
+      "id": "2",
+      "nroDocumento": "40318455",
+      "nombre": "maria",
+      "apellido": "gonzalez",
+      "email": "mariagonzalez@gmail.com",
+      "fechaNacimiento": "1995-04-23",
+      "fechaIngreso": "2018-09-01",
+      "fechaCreacion": "2024-09-14"
+    },
+    {
+      "id": "3",
+      "nroDocumento": "40422317",
+      "nombre": "luis",
+      "apellido": "pereira",
+      "email": "luipereira@gmail.com",
+      "fechaNacimiento": "1988-11-12",
+      "fechaIngreso": "2015-03-27",
+      "fechaCreacion": "2024-09-14"
+    },
+    {
+      "id": "4",
+      "nroDocumento": "40399211",
+      "nombre": "ana",
+      "apellido": "fernandez",
+      "email": "anafernandez@gmail.com",
+      "fechaNacimiento": "1992-07-05",
+      "fechaIngreso": "2020-01-30",
+      "fechaCreacion": "2024-09-14"
+    },
+    {
+      "id": "5",
+      "nroDocumento": "40129388",
+      "nombre": "carlos",
+      "apellido": "ramirez",
+      "email": "carlosramirez@gmail.com",
+      "fechaNacimiento": "1985-02-19",
+      "fechaIngreso": "2010-06-15",
+      "fechaCreacion": "2024-09-14"
+    },
+    {
+      "id": "6",
+      "nroDocumento": "40412039",
+      "nombre": "lucia",
+      "apellido": "martinez",
+      "email": "luciamartinez@gmail.com",
+      "fechaNacimiento": "1990-09-30",
+      "fechaIngreso": "2017-07-11",
+      "fechaCreacion": "2024-09-14"
+    },
+    {
+      "id": "7",
+      "nroDocumento": "40382941",
+      "nombre": "pedro",
+      "apellido": "lopez",
+      "email": "pedrolopez@gmail.com",
+      "fechaNacimiento": "1978-12-20",
+      "fechaIngreso": "2008-05-25",
+      "fechaCreacion": "2024-09-14"
+    },
+    {
+      "id": "8",
+      "nroDocumento": "40327761",
+      "nombre": "sofia",
+      "apellido": "rodriguez",
+      "email": "sofiarodriguez@gmail.com",
+      "fechaNacimiento": "2000-10-17",
+      "fechaIngreso": "2019-08-13",
+      "fechaCreacion": "2024-09-14"
+    },
+    {
+      "id": "9",
+      "nroDocumento": "40229833",
+      "nombre": "julian",
+      "apellido": "sanchez",
+      "email": "juliansanchez@gmail.com",
+      "fechaNacimiento": "1982-03-01",
+      "fechaIngreso": "2005-12-01",
+      "fechaCreacion": "2024-09-14"
+    },
+    {
+      "id": "10",
+      "nroDocumento": "40397224",
+      "nombre": "valentina",
+      "apellido": "diaz",
+      "email": "valentinadiaz@gmail.com",
+      "fechaNacimiento": "1997-05-10",
+      "fechaIngreso": "2021-04-09",
+      "fechaCreacion": "2024-09-14"
+    }
+  ]
+}

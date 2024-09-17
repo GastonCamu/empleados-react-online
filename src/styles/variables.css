@@ -1,0 +1,30 @@
+:root {
+    --color-1: #cad2c5;
+    --color-1-transparent: #cad2c57a;
+    --color-1-invisible: #cad2c536;
+    --color-1-dark: #b8b8b8;
+
+    --color-2: #84a98c;
+    --color-2-dark: #607c66;
+    --color-2-transparent: #84a98c80;
+    --color-2-invisible: #84a98c52;
+
+    --color-3: #52796f;
+
+    --color-4: #354f52;
+    --color-4-light: #51787c;
+    
+    --color-5: #2f3e46;
+    --color-5-light-transparent: #2f3e46ef;
+    --color-5-light: #4a5e69;
+
+    --color-button-edit: #f7b801;
+    --color-button-edit-dark: #c09300;
+
+    --color-button-delete: #e63946;
+    --color-button-delete-dark: #752a2b;
+
+    --color-error: #9a031e;
+    --color-success: #6a994e;
+    --color-success-dark: #496b36;
+}

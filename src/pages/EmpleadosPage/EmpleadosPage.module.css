@@ -1,0 +1,136 @@
+.empleadospage {
+   padding: 1vw 0;
+}
+
+.fondo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin: auto;
+    padding: 1vw;
+    margin: 1vw;
+    border-radius: 3px;
+}
+
+.barraAcciones {
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+.barraAcciones button {
+   cursor: pointer;
+   user-select: none;
+   font-size: 1.5vw;
+   font-weight: 600;
+   padding: 1vw 2vw;
+   border-radius: 3px;
+}
+
+.barraAcciones input {
+   border: 1px solid var(--color-1);
+   border-radius: 3px;
+   width: 23vw;
+   padding: 0.5vw;
+   font-size: 1.4vw;
+   color: var(--color-5);
+}
+
+.buttonBuscar, .buttonMostrarTodo {
+   background-color: var(--color-2);
+   color: var(--color-5);
+
+   transition: background 400ms;
+}
+
+.buttonBuscar:hover, .buttonMostrarTodo:hover {
+   background-color: var(--color-2-dark);
+
+   transition: background 400ms;
+}
+
+.buttonNuevoEmpleado {
+   background-color: var(--color-5-light);
+   color: var(--color-1);
+
+   transition: background 400ms;
+}
+
+.buttonNuevoEmpleado:hover {
+   background-color: var(--color-5);
+
+   transition: background 400ms;
+}
+
+.empleadosTable {
+    width: 100%;
+    border-collapse: collapse;
+ }
+
+ .empleadosTable th, .empleadosTable td {
+    padding: 1vw 0 1vw 0;
+    text-align: center;
+ }
+
+ .empleadosTable th {
+    background-color: white;
+    font-size: 1.3vw;
+    font-weight: 600;
+    color: var(--color-5);
+ }
+
+.empleadosTable td {
+    font-size: 1.2vw;
+    font-weight: 400;
+    color: var(--color-5-light);
+}
+
+ .empleadosTable tr:nth-child(odd) {
+    background-color: var(--color-1-invisible);
+ }
+
+.trContent {
+   border-top: 1.5px solid var(--color-1-transparent);
+ }
+
+.putButton, .deleteButton {
+   cursor: pointer;
+   margin: 0 0.4vw 0 0.4vw;
+   border-radius: 2px;
+   padding: 0.4vw;
+} 
+
+.putButton {
+   background-color: var(--color-button-edit);
+
+   transition: background 400ms;
+}
+
+.putButton:hover {
+   background-color: var(--color-button-edit-dark);
+
+   transition: background 400ms;
+}
+
+.deleteButton {
+   background-color: var(--color-button-delete);
+
+   transition: background 400ms;
+}
+
+.deleteButton:hover {
+   background-color: var(--color-button-delete-dark);
+
+   transition: background 400ms;
+}
+
+.putButton img, .deleteButton img {
+   user-select: none;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 1.3vw;
+   height: 1.3vw;
+   filter: invert(100%);
+} 
