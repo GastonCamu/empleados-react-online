@@ -2,7 +2,7 @@ import React from 'react';
 import s from './Footer.module.css';
 
 import logoGitHub from '../assets/img/logo-github.png';
-import logoLinkedin from '../assets/img/logo-linkedin.png';
+import logoLinkedin from '../assets/img/logo-linkedIn.png';
 
 const currentYear = new Date().getFullYear();
 
