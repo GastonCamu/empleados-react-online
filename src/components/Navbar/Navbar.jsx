@@ -3,8 +3,6 @@ import { NavLink } from 'react-router-dom';
 
 import s from './Navbar.module.css';
 
-import iconMenu from '../../assets/img/icon-menu-50.png';
-
 import { useAuth } from '../../context';
 
 const Navbar = () => {
@@ -50,7 +48,7 @@ const Navbar = () => {
             >
               <img
                 className={s.iconMenuPrincipal}
-                src={iconMenu}
+                src="/assets/img/icon-menu-50.png"
                 alt="Menu"
                 draggable="false"
               />

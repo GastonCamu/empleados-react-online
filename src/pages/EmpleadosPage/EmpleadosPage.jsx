@@ -2,9 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 import s from './EmpleadosPage.module.css';
 
-import iconEdit from '../../assets/img/icon-edit-50.png';
-import iconDelete from '../../assets/img/icon-delete-50.png';
-
 import { FormEmpleadoModal, PassiveAlert, ActionAlert, LoadingModal } from '../../components';
 import { formatFechaToDDMMYYYY, formatFechaToISO } from '../../utils';
 
@@ -187,13 +184,13 @@ const EmpleadosPage = () => {
                                         className={s.putButton}
                                         onClick={() => handleEditarEmpleado(empleado)}
                                     >
-                                        <img draggable="false" src={iconEdit} alt="Modificar" />
+                                        <img draggable="false" src={'/assets/img/icon-edit-50.png'} alt="Modificar" />
                                     </button>
                                     <button
                                         className={s.deleteButton}
                                         onClick={() => handleEliminarEmpleado(empleado)}
                                     >
-                                        <img draggable="false" src={iconDelete} alt="Eliminar" />
+                                        <img draggable="false" src={'/assets/img/icon-delete-50.png'} alt="Eliminar" />
                                     </button>
                                 </td>
                             </tr>
